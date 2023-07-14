@@ -1,5 +1,9 @@
 {
     "name": "anaflausino.github.io",
+    "author": {
+        "name": "Welberth Marques",
+        "url": "https://github.com/welbhen"
+    },
     "version": "1.0.0",
     "private": true,
     "dependencies": {
