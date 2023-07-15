@@ -13,10 +13,10 @@ function App() {
                 </div>
             </div>
             <div className="bot-row">
-                <HomeBtn title="Sobre" page="sobre" />
-                <HomeBtn title="Stories" page="sobre" />
-                <HomeBtn title="Posts" page="sobre" />
-                <HomeBtn title="Contato" page="sobre" />
+                <HomeBtn />
+                <HomeBtn />
+                <HomeBtn />
+                <HomeBtn />
             </div>
         </div>
     );
