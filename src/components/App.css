@@ -1,0 +1,47 @@
+body {
+    background-image: url("../../public/background-home.png"); /* TODO: resizing multiplies the bg */
+    background-size: cover;
+    background-position: top right;
+    height: 100%;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+}
+.top-left-column {
+    width: 50%;
+    height: 100%;
+}
+.top-right-column {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.top-right-column h1 {
+    font-size: 10vh;
+    margin: 0;
+    padding: 0;
+}
+.top-right-column h3 {
+    font-size: 5vh;
+    margin: 35px 0 0 0;
+    padding: 0;
+}
+
+.bot-row {
+    width: 100%;
+    height: 20%;
+}
