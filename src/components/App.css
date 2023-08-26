@@ -1,15 +1,11 @@
-body {
-    background-image: url("../../public/background-home.png"); /* TODO: resizing multiplies the bg */
-    background-size: cover;
-    background-position: top right;
-    height: 100%;
-}
-
 .home-container {
+    height: 100%;
+
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
+    color: white;
 }
 
 .top-row {
