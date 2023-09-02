@@ -11,34 +11,21 @@ function About() {
         <Container>
             <Row>
                 <Col>
-                    <h1>Chega mais, e vem me conhecer melhor...</h1>
+                    <h3>Chega mais, e vem me conhecer melhor...</h3>
                 </Col>
             </Row>
             <Row>
-                <Col></Col>
-                <Col>
-                    <Row>
-                        <Col>#########################</Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h5>
-                                <p className="p1">Olá,</p> me chamo Ana Carolina
-                                e tenho 25 anos. Sou designer, graduada pela
-                                ESAMC em Uberlândia, e durante os estudos me
-                                especializei em moda. Ao voltar para o mercado
-                                de trabalho, descobri as Redes Sociais como uma
-                                nova paixão. Busco sempre aperfeiçoar tudo que
-                                aprendi, e quem sabe juntar meus dois mundos
-                                (moda e design gráfico) em um só. Aqui mostrarei
-                                um pouquinho do que já realizei e todos os
-                                aprendizados que ainda estão por vir, e espero
-                                que se divirta ao acompanhar essa nova etapa
-                                comigo.
-                            </h5>
-                        </Col>
-                    </Row>
-                </Col>
+                <h5>
+                    <p className="p1">Olá,</p> me chamo Ana Carolina e tenho 25
+                    anos. Sou designer, graduada pela ESAMC em Uberlândia, e
+                    durante os estudos me especializei em moda. Ao voltar para o
+                    mercado de trabalho, descobri as Redes Sociais como uma nova
+                    paixão. Busco sempre aperfeiçoar tudo que aprendi, e quem
+                    sabe juntar meus dois mundos (moda e design gráfico) em um
+                    só. Aqui mostrarei um pouquinho do que já realizei e todos
+                    os aprendizados que ainda estão por vir, e espero que se
+                    divirta ao acompanhar essa nova etapa comigo.
+                </h5>
             </Row>
         </Container>
     );

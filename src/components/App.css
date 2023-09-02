@@ -1,73 +1,15 @@
-.home-container {
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    color: white;
-}
-
-.top-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 80vh;
-}
-.top-left-column {
-    width: 50%;
-    height: 100%;
-}
-.top-right-column {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-}
-.top-right-column h1 {
-    font-size: 10vh;
-    margin: 0;
-    padding: 0;
-}
-.top-right-column h3 {
-    font-size: 5vh;
-    margin: 35px 0 0 0;
-    padding: 0;
-}
-
-.bot-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 20%;
-}
-.bot-left-column {
-    width: 50%;
-    height: 100%;
-}
-.bot-right-column {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    justify-content: flex-start;
-    place-items: flex-start;
-}
-
 .main-btn,
 .main-btn:focus,
 .main-btn:active,
 .main-btn:hover {
     margin: 0px 10px;
-    padding: 5px 30px;
+    padding: 5px 10px;
     background-color: inherit;
     border: 2px solid #00ffb8;
     border-radius: 20px;
     color: white;
     font-size: 3vh;
+    width: 100%;
 }
 .main-btn:hover {
     cursor: pointer;
@@ -75,4 +17,50 @@
     border: 2px solid #861eff;
     color: #861eff;
     background-color: #facdcc;
+}
+
+.absolute-btn,
+.absolute-btn:focus,
+.absolute-btn:active,
+.absolute-btn:hover {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 3vh;
+}
+.absolute-btn:hover {
+    cursor: pointer;
+    color: #facdcc;
+}
+
+.h-10 {
+    height: 10%;
+}
+.h-20 {
+    height: 20%;
+}
+.h-30 {
+    height: 30%;
+}
+.h-40 {
+    height: 40%;
+}
+.h-50 {
+    height: 50%;
+}
+.h-60 {
+    height: 60%;
+}
+.h-70 {
+    height: 70%;
+}
+.h-80 {
+    height: 80%;
+}
+.h-100 {
+    height: 100%;
 }
