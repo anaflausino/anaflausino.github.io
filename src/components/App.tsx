@@ -11,7 +11,6 @@ import Col from "react-bootstrap/Col";
 import { AiFillHome } from "react-icons/ai";
 
 import Home from "./Home/Home";
-import Contact from "./Contact/Contact";
 import About from "./About/About";
 
 function App() {
@@ -21,18 +20,14 @@ function App() {
     const goAbout = () => {
         setContent("About");
     };
-    const goContact = () => {
-        setContent("Contact");
-    };
     const goHome = () => {
         setContent("Home");
     };
-
-    const goStories = () => {
-        navigate("/stories");
-    };
     const goPosts = () => {
         navigate("/posts");
+    };
+    const goPartners = () => {
+        navigate("/parceiros");
     };
 
     return (
@@ -42,23 +37,17 @@ function App() {
                 <Col md={6}>
                     <Row className="h-10"></Row>
                     <Row className="h-60">
-                        {content === "About" ? (
-                            <About />
-                        ) : content === "Contact" ? (
-                            <Contact />
-                        ) : (
-                            <Home />
-                        )}
+                        {content === "About" ? <About /> : <Home />}
                     </Row>
                     <Row className="h-30">
                         <Col md={3}>
-                            <button className="main-btn" onClick={goAbout}>
-                                Sobre
+                            <button className="main-btn" onClick={goHome}>
+                                Início <AiFillHome />
                             </button>
                         </Col>
                         <Col md={3}>
-                            <button className="main-btn" onClick={goStories}>
-                                Stories
+                            <button className="main-btn" onClick={goAbout}>
+                                Sobre
                             </button>
                         </Col>
                         <Col md={3}>
@@ -67,17 +56,13 @@ function App() {
                             </button>
                         </Col>
                         <Col md={3}>
-                            <button className="main-btn" onClick={goContact}>
-                                Contato
+                            <button className="main-btn" onClick={goPartners}>
+                                Parceiros
                             </button>
                         </Col>
                     </Row>
                 </Col>
             </Row>
-
-            <button className="absolute-btn" onClick={goHome}>
-                Início <AiFillHome />
-            </button>
         </Container>
     );
 }

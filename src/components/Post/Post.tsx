@@ -1,7 +1,11 @@
 import React from "react";
 
 function Post() {
-    return <div>Post</div>;
+    return (
+        <div>
+            <img src="" alt="post image" />
+        </div>
+    );
 }
 
 export default Post;

@@ -27,7 +27,7 @@ body {
     font-size: 15px;
     line-height: 150%; /* 150% of font-size */
 
-    background-image: url("../public/background-home.png"); /* TODO: resizing multiplies the bg and use a BG with NO photo */
+    background-image: url("../public/bg.png"); /* TODO: resizing multiplies the bg and use a BG with NO photo */
     background-size: cover;
     background-position: top right;
 }

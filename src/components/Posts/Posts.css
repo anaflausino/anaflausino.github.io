@@ -1,0 +1,17 @@
+.absolute-btn,
+.absolute-btn:focus,
+.absolute-btn:active,
+.absolute-btn:hover {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 3vh;
+}
+.absolute-btn:hover {
+    cursor: pointer;
+    color: #facdcc;
+}
